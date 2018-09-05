@@ -1,0 +1,252 @@
+
+body{
+    margin: 0;
+    background-color: white;
+    position: relative;
+  
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+   color: white;
+    font-size: 1.2em;
+    margin-top: -30px;
+}
+
+#navbar {
+  position: fixed;
+  z-index: 11111;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+
+#navbar ul{
+    background-image: linear-gradient( 135deg, rgb(60, 8, 118) 0%, rgb(250, 0, 118) 100%);
+    padding: 20px;
+    margin-top: 0px;
+  
+    
+}
+
+ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 80px;
+   
+}
+
+ a:hover{
+        color: #ce0c7c;
+         font-size: 1.5em;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+     transition: all 0.3s ease-in-out 0s;
+     font-size: 15px;
+    font-family: monospace;
+}
+
+h1{
+    padding-top: 85px;
+    font-family: cursive;
+    font-size: 2.5em;
+    font-weight: normal;
+    transition: all 0.3s ease-in-out 0s;
+    
+}
+
+.hero{
+    float: left;
+    margin-left: 70px;
+    margin-top: 23px;
+    
+}
+.iphone{
+   width: 21%;
+}
+
+
+.main{
+    margin: auto;
+    display: block;
+    width: 60%;
+    margin-top: 20px;
+    
+}
+
+h2{
+    color:#e60176;
+}
+.text{
+    color: #6e0676;
+}
+button{
+    
+    padding: 1px;
+    color: black;
+    font-size: 1.1em;
+    font-family: 'Lobster Two', cursive;
+    width: 15%;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    color: dodgerblue;
+    
+}
+
+.fas{
+    margin-left: 3px;
+}
+h3{
+    text-align: center;
+    font-size: 26px;
+    color: #5f0776;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: monospace;
+     height: 300px;
+    float: left;
+    margin-left: 10%;
+    
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.fas:hover{
+    font-size: 2em;
+      transition: all 0.3s ease-in-out 0s;
+}
+
+.far:hover{
+    font-size: 2em;
+      transition: all 0.3s ease-in-out 0s;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color:#e60176;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.title{
+    padding: 0px;
+    color: #6a0676;
+}
+.TESTIMONIALS{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    clear: both;
+}
+
+.TESTIMONIALS img{
+    border-radius: 50%;
+}
+.our{
+    color: #bc0376;
+}
+.graphic{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.graphic img{
+    display: block;
+    margin: auto;
+}
+
+.card:hover{
+ background-color:#08fde759;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    clear: both;
+    margin-top: 25%;
+}
+
+.mb-2{
+    padding-top: 20px;
+}
+nav a {
+    display: inline;
+    margin-right: 50px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/* @media */
+
+@media (max-width: 600px) {
+    button{
+        width:40%;
+  }
+}
+
+@media (max-width: 600px) {
+   .main{
+      margin-left: 10px;
+       width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+   .main img{
+    width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+   ul li{
+      display: block;
+    width: 98%;
+    margin-top: 2%;
+    background-color: #6e0676;
+    clear: both;
+    margin-top: 26px;
+   
+  }
+}
+@media (max-width: 600px) {
+   .hero{
+  float: left;
+       padding-top: 2px;
+
+  }
+}
+
+@media (max-width: 600px) {
+   .mobile{
+       margin-top: 48%;
+   
+  }
+}
