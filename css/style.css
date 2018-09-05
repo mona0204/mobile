@@ -1,6 +1,8 @@
-
+html,body{
+    height: 100%;
+}
 body{
-    margin: 0;
+    margin: 0 auto;
     background-color: white;
     position: relative;
   
@@ -16,7 +18,7 @@ header{
 
 #navbar {
   position: fixed;
-  z-index: 11111;
+  z-index: 1;
   width: 100%;
   display: block;
   transition: top 0.3s;
@@ -119,7 +121,7 @@ h3{
   font-family: monospace;
      height: 300px;
     float: left;
-    margin-left: 10%;
+    margin-left: 8%;
     
 }
 
@@ -194,15 +196,7 @@ footer{
     margin-top: 25%;
 }
 
-.mb-2{
-    padding-top: 20px;
-}
-nav a {
-    display: inline;
-    margin-right: 50px;
-    font-size: 18px;
-    transition: all 0.3s ease-in-out 0s;
-}
+
 
 /* @media */
 
@@ -210,43 +204,52 @@ nav a {
     button{
         width:40%;
   }
-}
-
-@media (max-width: 600px) {
-   .main{
-      margin-left: 10px;
-       width: 100%;
+  .main{
+  margin-left: 10px;
+  width: 100%;
   }
-}
-
-@media (max-width: 600px) {
-   .main img{
+   
+  .main img{
     width: 95%;
-  }
-}
-
-@media (max-width: 600px) {
+  }  
+    
    ul li{
       display: block;
-    width: 98%;
-    margin-top: 2%;
+    margin: 2%;
     background-color: #6e0676;
     clear: both;
-    margin-top: 26px;
    
-  }
-}
-@media (max-width: 600px) {
-   .hero{
+  } 
+    
+  .hero{
   float: left;
-       padding-top: 2px;
+   padding-top: 2px;
 
-  }
+  } 
+  
+    header{
+        margin-top: -48%;
+    }
+    
+  li a{
+        text-align: center;
+    }
+    
+    h1{
+      margin-top: 70%;
+    }
+    
+    #navbar{
+        top: -50px;
+    }
 }
 
-@media (max-width: 600px) {
-   .mobile{
-       margin-top: 48%;
-   
-  }
-}
+
+
+
+
+ 
+
+
+
+
